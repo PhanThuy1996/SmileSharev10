@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_theloai"
+            android:icon="@drawable/ic_theloai"
+            android:title="Thể loại" />
+        <item
+            android:id="@+id/nav_truyen"
+            android:icon="@drawable/ic_truyen"
+            android:title="Truyện" />
+        <item
+            android:id="@+id/nav_tacgia"
+            android:icon="@drawable/ic_person"
+            android:title="Tác giả" />
+        <item
+            android:id="@+id/nav_viettruyen"
+            android:icon="@drawable/ic_viet"
+            android:title="Viết truyện" />
+        <item
+            android:id="@+id/nav_dangnhap"
+            android:icon="@drawable/ic_dangnhap"
+            android:title="Đăng nhập/Đăng ký" />
+
+        <item
+            android:id="@+id/nav_thoat"
+            android:icon="@drawable/ic_thoat"
+            android:title="Thoát" />
+    </group>
+
+</menu>

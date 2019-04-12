@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VietTruyen"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Góc sáng tác"
+            android:textStyle="bold"
+            android:textColor="#123"
+            android:layout_marginLeft="120dp"
+            android:textSize="30dp"
+            android:fontFamily="cursive" />
+        <EditText
+            android:id="@+id/editTenTruyen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#dfe1e4"
+            android:hint="Tên truyện"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editNoiDung"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#dfe1e4"
+            android:hint="Nội dung"
+            android:padding="10dp" />
+        <!-- Login Button -->
+        <Button
+            android:gravity="center"
+            android:id="@+id/btnviet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#4267b2"
+            android:text="Viết truyện"
+            android:textColor="#ffff" />
+        <!-- Link to Login Screen -->
+    </LinearLayout>
+
+</LinearLayout>
